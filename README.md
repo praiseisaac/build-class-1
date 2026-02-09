@@ -14,8 +14,8 @@ in-class-demo/
 │   ├── listener.ts          # WebSocket server (instructor runs this)
 │   └── test-publisher.ts    # Test client to verify the server works
 ├── client/
-│   ├── publisher.comments.ts  # YOUR EXERCISE — fill in the code
-│   └── publisher.ts           # Reference solution (no peeking!)
+│   ├── publisher.ts  # YOUR EXERCISE — fill in the code
+│   └── publisher.finished.ts           # Reference solution (no peeking!)
 ```
 
 ## Setup
