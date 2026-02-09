@@ -1,0 +1,19 @@
+{
+  "name": "netsim-instructor",
+  "version": "1.0.0",
+  "scripts": {
+    "listener": "tsx listener.ts",
+    "test-publisher": "tsx test-publisher.ts",
+    "cloudflared:3001": "cloudflared tunnel --url http://localhost:3001 run listedkit-dev10"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/ws": "^8",
+    "tsx": "^4.21.0",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "ws": "^8"
+  },
+  "private": true
+}

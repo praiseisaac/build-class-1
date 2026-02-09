@@ -1,0 +1,8 @@
+// imports (we need hostname from os and parseArgs from bun)
+// parse arguments (https://bun.com/docs/guides/process/argv#parse-command-line-arguments)
+// host setup (extract the host information from the arguments)
+// url setup (replace host name with ws:// to validate websocket url)
+// initialize socket class (WebSocket) (https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
+// start socket (initialize the socket with the 'addEvenetListener' method. Let's listen for 'open' events)
+// input listener loop (loop through the console lines "for await (const line of readline.createInterface({ input: process.stdin }))". When typing, sends the message after a new line)
+// error handling (add error listener to socket) (https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)

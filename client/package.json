@@ -1,0 +1,15 @@
+{
+  "name": "in-class-demo",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "npx tsx publisher.ts"
+  },
+  "module": "publisher.ts",
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "tsx": "^4.21.0"
+  }
+}
